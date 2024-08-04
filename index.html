@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisense - Torre de Control Logística</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Hisense</div>
+        <div class="menu">
+            <a href="#">TELEVISIÓN</a>
+            <a href="#">LÍNEA BLANCA</a>
+            <a href="#">AUDIO</a>
+            <a href="#">AC</a>
+            <a href="#">CONTACTO</a>
+            <a href="#" class="search-icon">🔍</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Descubre nuestras pantallas con tecnología Mini-LED</h1>
+        <button class="cta-button">Conoce más</button>
+    </div>
+
+    <div class="container">
+        <h2 class="main-title">Torre de Control Logística</h2>
+        <div class="processes-container">
+            <div class="process" data-process="recibo">
+                <h3>Recibo</h3>
+                <div class="process-items">
+                    <button>Entrada</button>
+                    <button>Inicio de descarga</button>
+                    <button>Fin de descarga</button>
+                    <button>Verificación</button>
+                    <button>Salida</button>
+                    <button>RDR & Pedimento</button>
+                </div>
+            </div>
+            <!-- Repeat for other processes: embarques, entregas, rechazo, siniestros -->
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
